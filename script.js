@@ -26,14 +26,6 @@ retrievingTheData();
 // DISPLAYING THE DATA
 
 function displayingTheData(data) {
-    const arr = [];
-
-    for (const {category, score, icon} of data) {
-        arr.push(category);
-    };
-
-    console.log(arr);
-
     for (let i = 0; i < data.length; i++) {
         // SUMMARY 
         const summaryItself = document.createElement('div');
