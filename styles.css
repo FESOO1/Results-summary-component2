@@ -225,6 +225,6 @@ main {
         align-items: flex-start;
     }
     .main-itself-left {
-        border-radius: 0;
+        border-radius: 0 0 2rem 2rem;
     }
 }
