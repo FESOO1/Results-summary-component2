@@ -94,7 +94,7 @@ main {
     font-size: 1.1rem;
 }
 
-/**/
+/* MAIN ITSELF RIGHT */
 
 .main-itself-right {
     padding: 25px;
@@ -103,10 +103,48 @@ main {
     justify-content: space-between;
 }
 
+/* MAIN ITSELF RIGHT HEADER */
+
 .main-itself-right-header {
     color: hsl(224, 30%, 27%);
     font-size: 1.8rem;
 }
+
+/* MAIN ITSELF RIGHT SUMMARY */
+
+.main-itself-right-summary {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.main-itself-right-summary-itself {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 0.5rem;
+}
+
+.main-itself-right-summary-itself:nth-of-type(2) {
+    background-color: rgba(255, 176, 30, 0.05);
+}
+
+.main-itself-right-summary-itself:nth-of-type(2) .main-itself-right-summary-itself-left-text {
+    color: #FFB21E;
+}
+
+.main-itself-right-summary-itself-left {
+    display: flex;
+    column-gap: 10px;
+}
+
+.main-itself-right-summary-itself-left-text {
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+/* MAIN ITSELF RIGHT BUTTON */
 
 .main-itself-right-button {
     font-size: 1.05rem;
@@ -121,4 +159,19 @@ main {
 
 .main-itself-right-button:hover {
     background: linear-gradient(0deg, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+}
+
+.main-itself-right-summary-itself-right {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.main-itself-right-summary-itself-right-text:first-of-type {
+    font-weight: 800;
+    color: hsl(224, 30%, 27%);
+}
+
+.main-itself-right-summary-itself-right-text:last-of-type {
+    color: hsl(224, 30%, 27%);
 }
