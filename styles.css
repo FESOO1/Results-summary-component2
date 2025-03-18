@@ -217,6 +217,8 @@ main {
         width: 100%;
         border-radius: 0;
         grid-template-columns: 1fr;
+        border: 0;
+        box-shadow: none;
     }
     main {
         padding: 0;
