@@ -93,3 +93,32 @@ main {
     line-height: 1.7;
     font-size: 1.1rem;
 }
+
+/**/
+
+.main-itself-right {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-itself-right-header {
+    color: hsl(224, 30%, 27%);
+    font-size: 1.8rem;
+}
+
+.main-itself-right-button {
+    font-size: 1.05rem;
+    font-weight: 700;
+    background-color: hsl(224, 30%, 27%);
+    border: 0;
+    color: white;
+    padding-block: 17px;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.main-itself-right-button:hover {
+    background: linear-gradient(0deg, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+}
